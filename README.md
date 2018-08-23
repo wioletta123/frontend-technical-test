@@ -5,7 +5,7 @@
 ### Instructions
 To start download or clone this repository.
 
-The task is then to build a simple HTML webpage to match the design available in the design directory:
+The task is then to build a simple HTML webpage to match the design available in the design directory:  
 `design/sample-design.png`
 
 ### Guidelines
