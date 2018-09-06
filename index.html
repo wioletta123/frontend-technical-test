@@ -1,10 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Document</title>
-	</head>
-	
-	<body>
-		
-	</body>
+<html>
+    
+<head>
+    <!––Using boostrap & jquery taken from w3school --!>
+     <title>Gough Bailey Wright</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+<!––navigation bar --!>
+<img class="navbar-brand" src="gough-logo.png"  href="#myPage" width="200px," height="300px">
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">DONATE</a>
+  <a href="#contact">CONTACT</a>
+  <a href="#news">NEWS</a>
+  <a href="#our work">OUR STORY</a>
+    <a href="# what we do">WHAT WE DO</a>
+    
+<!–– making navigation responsive  --!>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    <!–– header image  --!>
+<div class="header">
+    <img src="banner-image.png" alt="Nature" class="responsive" width="600" height="400">
+    
+    </div>
+    
+    <!––first column left site (General heading ) --!>
+     <div class="container">
+  <div class="row">
+      
+    <div class="col-sm-8">
+        <div class="one">
+            
+      <h3>GENERAL HEADING</h3>
+            <br>
+      <p>Normal opening hours <br>
+      Monday to Friday 08:00 until 4:00PM<br>
+        Saturday 9:00 until 7:00PM<br>
+        Sunday closed</p>
+    </div>
+        <!–– bottom column on left side with six boxes made in to buttons created so users can hover over --!>
+        <div class="three">
+        <p class="text">lorem ipsum dolor sit ament. consectetur adipiscing elite </p>
+            <div class="grid">   
+<div class="btn-group" style="width:100%">
+    <button style="width:33.3%"> <h4> <b>Section Title </b></h4> <br> <p>lorem ipsum dolor sit ament. consectetur adipiscing elite</p></button>
+  <button style="width:33.3%"><h4><b> Section Title</b> </h4> <br> <p>lorem ipsum dolor sit ament. consectetur adipiscing elite</p></button>
+    <button style="width:33.3%"><h4><b>Section Title</b></h4> <br> <p>lorem ipsum dolor sit ament. consectetur adipiscing elite</p></button>
+</div>
+      <div class="btn-group" style="width:100%">
+  <button style="width:33.3%"><h4><b> Section Title </b></h4> <br> <p>lorem ipsum dolor sit ament. consectetur adipiscing elite</p></button>
+          <button style="width:33.3%"><h4> <b> Section Title </b></h4> <br> <p>lorem ipsum dolor sit ament. consectetur adipiscing elite</p></button>
+          <button style="width:33.3%"><h4><b> Section Title </b></h4> <br> <p>lorem ipsum dolor sit ament. consectetur adipiscing elite</p></button>
+</div>
+      </div>        
+        </div>
+      </div>
+      <!–– right side column (side navigation)--!>
+    <div class="col-sm-3">
+        <div class="two">
+   <ul style="list-style-type:none">
+       <br>
+      <h5> WHAT WE DO  </h5>
+        <li> > Lorem ipsum </li>
+                
+                <li> > Lorem ipsum </li>
+               
+                <li> > Lorem ipsum </li>
+               
+                <h5> OUR STORY </h5>
+               
+                <li>> Lorem ipsum </li>
+              
+                <li>> Lorem ipsum </li>
+               
+                <li>> Lorem ipsum </li>
+                
+                <h5> NEWS </h5>
+               
+                <h5> CONTACT </h5>
+                
+                <li>> Lorem ipsum </li>
+                
+                <li> >Lorem ipsum </li>
+     
+     
+            </ul>
+  </div>
+</div>
+         </div>
+    </div>
+<!–– map image with text on top  --!>
+<div class="map">
+   <img src="map-background.png" alt="Nature" class="responsive" width="1440" height="350">
+    <div class="hero-text">
+    <h1 style="font-size:40px">BANNER HEADING</h1>
+    <p>lorem ipsum dolor sit ament dolor sit ament <br>lorem ipsum dolor sit ament dolor sit ament <br> CALL US ON 01527579555 </p>
+    <button class="button button4">Contact Page</button> <br>
+   
+</div>
+    <!–– blue line under the map image  --!>
+    <div class="blue">
+    <p> GOUGH BAILEY WRIGHT LOREM IPSUM DOLOR SIT AMET </p>
+        </div>
+    </div>
+    
+<!––script for responsive navigation --!>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+    <!––footer --!>
+    
+        <div class="footer">
+            <div class="info">
+                <!–– navigation text in footer --!>
+                <p class="Feed"> <b>Feedback </b></p><br>
+  <p class="terms"><b>Terms & Conditions</b></p><br>
+  <p class="How"><b>How to find us </b></p>
+        
+                </div>
+  <p>Gough Bailey Wright <br>St John's House, 16 Church Street,Bromsgrove,Worcestershire B61 7JH</p>
+    </div>
+    
+</body>
 </html>
